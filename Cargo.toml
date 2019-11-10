@@ -6,6 +6,6 @@ edition = "2018"
 
 [dependencies]
 panic-halt = "0.2.0"
-riscv = "0.5.3"
-riscv-rt = "0.6.0"
-k210-hal = "0.1.0"
+riscv = "0.5.4"
+riscv-rt = "0.6.1"
+k210-hal = { git = "https://github.com/ketotek/k210-hal", branch = "0.2" }
